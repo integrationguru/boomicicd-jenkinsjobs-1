@@ -1,4 +1,4 @@
-# Jenkins Jobs Installation for Boomi CI/CD
+# Jenkins Jobs Installation for Boomi CI/CD.
 
 This repository has the Jenkins Jobs required to launch Boomi CI/CD reference implemetation. The Jobs must be installed/copied into a working Jenkins installer 2.x or higher. 
   
