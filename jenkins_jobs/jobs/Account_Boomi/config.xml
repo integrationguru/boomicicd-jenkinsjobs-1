@@ -249,6 +249,7 @@
         <properties class="hudson.model.View$PropertyList"/>
         <jobNames>
           <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../hudson.model.ListView/jobNames/comparator"/>
+          <string>List Execution Records</string>
           <string>List All Components</string>
           <string>List All Environments</string>
           <string>List Atoms</string>

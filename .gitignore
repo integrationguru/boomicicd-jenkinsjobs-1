@@ -1,3 +1,4 @@
 workspace
 htmlreports
 **/github-polling.log
+.DS_Store
