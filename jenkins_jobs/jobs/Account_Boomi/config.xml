@@ -147,45 +147,14 @@
       </hudson.model.AllView>
       <hudson.model.ListView>
         <owner class="com.cloudbees.hudson.plugins.folder.Folder" reference="../../../.."/>
-        <name>2. Operations Jobs</name>
-        <filterExecutors>false</filterExecutors>
-        <filterQueue>false</filterQueue>
-        <properties class="hudson.model.View$PropertyList"/>
-        <jobNames>
-          <comparator class="hudson.util.CaseInsensitiveComparator"/>
-          <string>Change All Listener Status</string>
-          <string>Change Listener Status</string>
-          <string>Query Atom</string>
-          <string>Update Environment Extensions</string>
-          <string>Update Process Schedule Status</string>
-        </jobNames>
-        <jobFilters/>
-        <columns>
-          <hudson.views.StatusColumn/>
-          <hudson.views.WeatherColumn/>
-          <hudson.views.JobColumn/>
-          <hudson.views.LastSuccessColumn/>
-          <hudson.views.LastFailureColumn/>
-          <hudson.views.LastDurationColumn/>
-          <hudson.views.BuildButtonColumn/>
-        </columns>
-        <recurse>false</recurse>
-      </hudson.model.ListView>
-      <hudson.model.ListView>
-        <owner class="com.cloudbees.hudson.plugins.folder.Folder" reference="../../../.."/>
         <name>1. Packaged Component</name>
         <filterExecutors>false</filterExecutors>
         <filterQueue>false</filterQueue>
         <properties class="hudson.model.View$PropertyList"/>
         <jobNames>
-          <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../hudson.model.ListView/jobNames/comparator"/>
-          <string>Continuous Package Deployment Pipeline</string>
+          <comparator class="hudson.util.CaseInsensitiveComparator"/>
           <string>Create Packages</string>
-          <string>Create Process Schedule</string>
           <string>Deploy Packages</string>
-          <string>Query Execution Record</string>
-          <string>Undeploy Package</string>
-          <string>Update Environment Extensions</string>
         </jobNames>
         <jobFilters/>
         <columns>
@@ -201,7 +170,7 @@
       </hudson.model.ListView>
       <hudson.model.ListView>
         <owner class="com.cloudbees.hudson.plugins.folder.Folder" reference="../../../.."/>
-        <name>3. Publish Reports</name>
+        <name>2. Publish Reports</name>
         <filterExecutors>false</filterExecutors>
         <filterQueue>false</filterQueue>
         <properties class="hudson.model.View$PropertyList"/>
