@@ -1,5 +1,5 @@
 <?xml version='1.1' encoding='UTF-8'?>
-<com.cloudbees.hudson.plugins.folder.Folder plugin="cloudbees-folder@6.15">
+<com.cloudbees.hudson.plugins.folder.Folder plugin="cloudbees-folder@6.800.v71307ca_b_986b">
   <actions/>
   <description>The Boomi CICD jobs for the above account</description>
   <displayName>Account Boomi</displayName>
@@ -7,49 +7,49 @@
     <com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider_-FolderCredentialsProperty>
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
         <entry>
-          <com.cloudbees.plugins.credentials.domains.Domain plugin="credentials@2.3.18">
+          <com.cloudbees.plugins.credentials.domains.Domain plugin="credentials@1214.v1de940103927">
             <specifications/>
           </com.cloudbees.plugins.credentials.domains.Domain>
           <java.util.concurrent.CopyOnWriteArrayList>
-            <org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl plugin="plain-credentials@1.7">
+            <org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl plugin="plain-credentials@143.v1b_df8b_d3b_e48">
               <id>authToken</id>
               <description>Boomi API Authentication Token</description>
-              <secret>{AQAAABAAAAAQ+YyYq5Imfdi65le+AtyfAj0/r1xzy/lS0L/8JNgOkL0=}</secret>
+              <secret>{AQAAABAAAABADwWabY/Vp+PT4GmsbqOK/AICUmW6xuFpkOyRObT0K5Hc1slTWTxHssVnEV56qJcpLg4GqIx++TadYKwNML5OhlAdQiJi4YzLh9Mw9eBpLmE=}</secret>
             </org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl>
-            <org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl plugin="plain-credentials@1.7">
+            <org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl plugin="plain-credentials@143.v1b_df8b_d3b_e48">
               <id>sonarToken</id>
               <description>Token for Sonar</description>
-              <secret>{AQAAABAAAAAQ+YyYq5Imfdi65le+AtyfAj0/r1xzy/lS0L/8JNgOkL0=}</secret>
+              <secret>{AQAAABAAAABAjlofK/OwsqOuOYXiv3McqAVVZiKBuQGqN9FSmexYkL1llmzHVq5uZeBlRSr5sMAWdMgd4E4oDbFU07Q4bXrWwvJzSJkYdhu0nTZTiK9B/JI=}</secret>
             </org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl>
-            <org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl plugin="plain-credentials@1.7">
+            <org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl plugin="plain-credentials@143.v1b_df8b_d3b_e48">
               <id>JENKINS_TOKEN</id>
               <description>Token used by JENKINS_USER to trigger remote jobs</description>
-              <secret>{AQAAABAAAAAQ+YyYq5Imfdi65le+AtyfAj0/r1xzy/lS0L/8JNgOkL0=}</secret>
+              <secret>{AQAAABAAAABA5OhFHcIdTakmuNzsf6nHHEEgSJ0QaQPLug5tuIFv9CBxrMmvjqen5yDx7UYkbbJ2GZAFEz3KnZ6ZT5JRhilwk9v4S39jS+aaREZa9lLnsEs=}</secret>
             </org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl>
-            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@2.3.18">
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@1214.v1de940103927">
               <id>gitReleaseRepoUserPassword</id>
               <description>User ID and password to connect to GIT Release Repo</description>
               <username>username</username>
-              <password>{AQAAABAAAAAQ+YyYq5Imfdi65le+AtyfAj0/r1xzy/lS0L/8JNgOkL0=}</password>
+              <password>{AQAAABAAAABAY+zaCtiqoQZH1TCwLuAIBpnOduIqHWWJvrkJuuzmg0S1URAy3qmwrqbEYxlhSglgWwh1g53Wh9jV9fcGj2scr26HJcGNGL02fTDfD2DfBTo=}</password>
             </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
-            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@2.3.18">
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@1214.v1de940103927">
               <id>gitReleaseRepoAPIToken</id>
               <description>This is used by Jenkins Jobs to update the commit status in $gitReleaseRepoAPIURL. This must use Personal Access Token Generated from GIT</description>
               <username>username</username>
-              <password>{AQAAABAAAAAQ+YyYq5Imfdi65le+AtyfAj0/r1xzy/lS0L/8JNgOkL0=}</password>
+              <password>{AQAAABAAAABAa0A7zu2tnNvSdLTEpwnIAWfOnEcR0niprc8Az0QiU059IHEXaN0Re0xwbiCNCLxYKa+Th2jgQ8IYVD2UxRFt03nno60ZBJ28ezOTruWaRjE=}</password>
             </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
-            <org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl plugin="plain-credentials@1.7">
+            <org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl plugin="plain-credentials@143.v1b_df8b_d3b_e48">
               <id>gitComponentRepoURL</id>
               <description>GIT Component URL in the form of https://user:password@giturl.com</description>
-              <secret>{AQAAABAAAAAQ+YyYq5Imfdi65le+AtyfAj0/r1xzy/lS0L/8JNgOkL0=}</secret>
+              <secret>{AQAAABAAAABAUU7zUzZ+KNMSr32GvRnRq/v4bh3ct3mpZ7MPzlLuupo5eBZNUkCZTeOoZid4/xgK3VtiDzD0bVLujE7oP+9+e3pW9xVFMNxsSdvv5/uOJYw=}</secret>
             </org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl>
           </java.util.concurrent.CopyOnWriteArrayList>
         </entry>
       </domainCredentialsMap>
     </com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider_-FolderCredentialsProperty>
-    <org.jenkinsci.plugins.docker.workflow.declarative.FolderConfig plugin="docker-workflow@1.26">
+    <org.jenkinsci.plugins.docker.workflow.declarative.FolderConfig plugin="docker-workflow@563.vd5d2e5c4007f">
       <dockerLabel></dockerLabel>
-      <registry plugin="docker-commons@1.17"/>
+      <registry plugin="docker-commons@1.21"/>
     </org.jenkinsci.plugins.docker.workflow.declarative.FolderConfig>
     <com.mig82.folders.properties.FolderProperties plugin="folder-properties@1.2.1">
       <properties>
@@ -147,51 +147,15 @@
       </hudson.model.AllView>
       <hudson.model.ListView>
         <owner class="com.cloudbees.hudson.plugins.folder.Folder" reference="../../../.."/>
-        <name>2. Installation Jobs</name>
+        <name>2. Operations Jobs</name>
         <filterExecutors>false</filterExecutors>
         <filterQueue>false</filterQueue>
         <properties class="hudson.model.View$PropertyList"/>
         <jobNames>
           <comparator class="hudson.util.CaseInsensitiveComparator"/>
-          <string>Create Cloud Atom</string>
-          <string>Create Environment</string>
-          <string>Create Environment and Attach Atom</string>
-          <string>Delete Atom and Env</string>
-          <string>Delete Local Atom</string>
-          <string>Fetch Environment Names</string>
-          <string>Get Cloud Installer Token</string>
-          <string>Get Installer Token</string>
-          <string>Install Local Atom</string>
-          <string>List All Environments</string>
-          <string>Query Atom</string>
-          <string>Update Shared Server</string>
-        </jobNames>
-        <jobFilters/>
-        <columns>
-          <hudson.views.StatusColumn/>
-          <hudson.views.WeatherColumn/>
-          <hudson.views.JobColumn/>
-          <hudson.views.LastSuccessColumn/>
-          <hudson.views.LastFailureColumn/>
-          <hudson.views.LastDurationColumn/>
-          <hudson.views.BuildButtonColumn/>
-        </columns>
-        <recurse>false</recurse>
-      </hudson.model.ListView>
-      <hudson.model.ListView>
-        <owner class="com.cloudbees.hudson.plugins.folder.Folder" reference="../../../.."/>
-        <name>3. Operations Jobs</name>
-        <filterExecutors>false</filterExecutors>
-        <filterQueue>false</filterQueue>
-        <properties class="hudson.model.View$PropertyList"/>
-        <jobNames>
-          <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../hudson.model.ListView/jobNames/comparator"/>
           <string>Change All Listener Status</string>
           <string>Change Listener Status</string>
-          <string>Execute Process</string>
-          <string>Query Execution Record</string>
-          <string>Start Local Atom</string>
-          <string>Stop Local Atom</string>
+          <string>Query Atom</string>
           <string>Update Environment Extensions</string>
           <string>Update Process Schedule Status</string>
         </jobNames>
@@ -216,15 +180,9 @@
         <jobNames>
           <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../hudson.model.ListView/jobNames/comparator"/>
           <string>Continuous Package Deployment Pipeline</string>
-          <string>Create Package</string>
           <string>Create Packages</string>
           <string>Create Process Schedule</string>
-          <string>Deploy Package</string>
           <string>Deploy Packages</string>
-          <string>DynamicGitJob_Dev</string>
-          <string>DynamicGitJob_Test</string>
-          <string>Execute Process</string>
-          <string>List Processes</string>
           <string>Query Execution Record</string>
           <string>Undeploy Package</string>
           <string>Update Environment Extensions</string>
@@ -243,17 +201,17 @@
       </hudson.model.ListView>
       <hudson.model.ListView>
         <owner class="com.cloudbees.hudson.plugins.folder.Folder" reference="../../../.."/>
-        <name>4. Publish Reports</name>
+        <name>3. Publish Reports</name>
         <filterExecutors>false</filterExecutors>
         <filterQueue>false</filterQueue>
         <properties class="hudson.model.View$PropertyList"/>
         <jobNames>
           <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../hudson.model.ListView/jobNames/comparator"/>
-          <string>List Execution Records</string>
           <string>List All Components</string>
           <string>List All Environments</string>
           <string>List Atoms</string>
           <string>List Deployed Packages</string>
+          <string>List Execution Records</string>
           <string>List Package Components</string>
           <string>List Processes</string>
         </jobNames>
