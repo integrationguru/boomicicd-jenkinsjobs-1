@@ -1,7 +1,7 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description>Publishes a report of Process Execution Records in a given Atom(s)</description>
+  <description>Publishes a report of Audit Log Records for a given Atom(s)</description>
   <keepDependencies>false</keepDependencies>
   <properties>
     <hudson.model.ParametersDefinitionProperty>
@@ -9,17 +9,6 @@
         <hudson.model.StringParameterDefinition>
           <name>atomNames</name>
           <description>Comma separated list of atomName(s)</description>
-          <trim>false</trim>
-        </hudson.model.StringParameterDefinition>
-        <hudson.model.StringParameterDefinition>
-          <name>processName</name>
-          <description>Name of the specific process to search (Escape special characters with a \ )</description>
-          <trim>false</trim>
-        </hudson.model.StringParameterDefinition>
-        <hudson.model.StringParameterDefinition>
-          <name>status</name>
-          <description>Specific Status to search </description>
-          <defaultValue>ERROR</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -47,7 +36,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd ${SCRIPTS_HOME}
-source bin/publishExecutionRecord.sh atomNames=${atomNames} processName=${processName} from=${from} to=${to} status=${status} &gt; &quot;${WORKSPACE}/index.html&quot;
+source bin/publishAuditLog.sh atomNames=${atomNames} from=${from} to=${to}  &gt; &quot;${WORKSPACE}/index.html&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
@@ -56,7 +45,7 @@ source bin/publishExecutionRecord.sh atomNames=${atomNames} processName=${proces
     <htmlpublisher.HtmlPublisher plugin="htmlpublisher@1.31">
       <reportTargets>
         <htmlpublisher.HtmlPublisherTarget>
-          <reportName>Process Execution Report</reportName>
+          <reportName>Audit Log Report</reportName>
           <reportDir>.</reportDir>
           <reportFiles>index.html</reportFiles>
           <alwaysLinkToLastBuild>true</alwaysLinkToLastBuild>

@@ -179,6 +179,7 @@
           <string>List All Components</string>
           <string>List All Environments</string>
           <string>List Atoms</string>
+          <string>List Audit Logs</string>
           <string>List Deployed Packages</string>
           <string>List Execution Records</string>
           <string>List Package Components</string>
